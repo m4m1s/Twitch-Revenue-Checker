@@ -1,1 +1,1 @@
-Simple code to find payment information for Twitch accounts.
+Simple code to find revenue information for Twitch accounts.
