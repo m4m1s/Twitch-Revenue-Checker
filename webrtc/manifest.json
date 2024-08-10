@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "browser_style": false,
+      "default_icon": "images/48-disabled.png",
+      "default_popup": "popup.html",
+      "default_title": "Your IP is visible"
+   },
+   "description": "Disable WebRTC and prevent IP leak.",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/32.png",
+      "32": "images/32.png",
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqn7Jtyhi2r45YJXs47mIe32rMOZs2Hsn2YqvsYc3HGI7Uhi5O+vqNEY5vNPCDRG7TlnlroKQpDTqXulLUcT2kRYuUBN5RBwJOf3Y5HbETBhoMmVsgjJqcVn5Gm+IxsFZ2Q06zUVbn3KHwtdjqsg4slqns50DQ+OcxC5jC9X7pKa4kMt4g51Z95WujcNRP3RI58N7ObdzoHplNDXUSA0KJl1LsOw2IfGFC7InNY4JblRzA4eEglR36l/ALZvLkyP6IdUFECHK6Lg1nJpqs1oHgb3jAOscGiuDsIg6OTKHwlYmQEaH5Il+xUjbxSCcXSCvdGStz+Qg7Wy14ZCj0/82FwIDAQAB",
+   "manifest_version": 2,
+   "name": "WebRTC Leak Shield",
+   "permissions": [ "privacy", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.8"
+}
